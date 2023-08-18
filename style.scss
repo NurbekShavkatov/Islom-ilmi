@@ -1,0 +1,167 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    
+    .logo{
+        color: rgb(244, 168, 76);
+        display: flex;
+        gap: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        cursor: pointer;
+       
+    }
+    h1{
+        
+        padding-top: 50px;
+       color: darkgreen;
+        font-size: 30px;
+        width: 30%;
+        margin: 0 auto;
+    }
+    .menu{
+        
+        padding-top: 50px;
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+        color: rgb(94, 53, 3);
+        font-size: 40px;
+        .din{            
+            padding-top: 10px;
+            color: rgb(201, 126, 35);
+            border-radius: 15px;
+            cursor: pointer;
+           &:hover{
+            scale: 0.9;
+           } 
+        }
+        .iymon{
+            flex-direction: column;
+        }
+        
+    }
+}
+.index{
+    cursor: pointer;
+    color: rgb(178, 134, 79);
+    margin-top: 30px;    
+    }
+    .child{
+        font-size: 20px;
+    }
+    #iyman{
+        
+        width: 85%;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+    #namaz{
+        
+        width: 85%;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+    #roza{
+        
+        width: 85%;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+    #haj{
+        
+        width: 85%;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+    #zakot{
+        
+        width: 85%;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+    .hadis {
+        padding-top: 30px;
+        width: 1000px;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .social {
+        padding-top: 150px;
+        width: 100px;
+        margin: 0 auto;
+      .fa-brands{
+        color: rgb(168, 117, 50);
+      }
+    }
+    .time{
+        padding-top: 10px;
+        cursor: pointer;
+        width: 150px;
+        margin: 0 auto;
+       }
+       .namoz_vaqtlari{
+        margin-left: 400px;
+        color: rgb(206, 120, 7);
+    }
+    .mintaqa{
+        margin-left: 30px;
+        display: flex;
+        gap: 10px;
+        span{
+            color: rgb(83, 46, 2);
+        }
+    }
+    #namoz_vaqtlari{
+        padding-top: 80px;
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;       
+        cursor: pointer; 
+        padding-bottom: 30px;
+        
+    }
+    .all{
+        // padding-top: 40px;
+        width: 70%;
+        margin: 0 auto;
+        font-size: 20px;
+        color: rgb(246, 125, 3);
+    }
+    .language{
+        display: flex;
+        gap: 5px;
+        margin-left: 400px;
+        .uz{
+            padding: 10px 10px;
+            color: white;
+            // width: 40px;
+            // height: 40px;
+            background-color: rgb(250, 138, 2);
+            border-radius: 10px;
+            &:hover{
+                scale: 0.9;
+            }
+        }
+    }
+    p {
+        width: 25%;
+        margin: 0 auto;
+        color: rgb(69, 39, 3);
+        font-size: 20px;
+       
+    }
+    #digital-clock{
+        margin-top: 20px;
+        width: 10%;
+        margin: 0 auto;
+        color: rgb(69, 39, 3);
+        font-size: 40px;
+    }
+   
